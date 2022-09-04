@@ -18,13 +18,13 @@
   <link rel="stylesheet" href="css/nice-select.css">
   <link rel="stylesheet" href="rs-plugin/css/settings.css">
   <link href="css/style.css" rel="stylesheet">
-  <title>Real Estate</title>
+  <title>Diamond</title>
 </head>
 
 <body>
   <!--Topbar Start-->
   <div class="topbar-wrap">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-4">
           <ul class="social_media style_none">
@@ -36,9 +36,9 @@
         </div>
         <div class="col-lg-6 col-md-8">
           <div class="top_right">
-            <div class="topbar_phone"><a href="#"><i class="fas fa-phone-alt" aria-hidden="true"></i> + 970 538 868
-              </a></div>
-            <div class="topbar_login"><a href="submit_property.html"> Submit Property</a></div>
+            <!--<div class="topbar_phone"></div>-->
+            <div class="topbar_login"><a href="#"><i class="fas fa-phone-alt" aria-hidden="true"></i> + 970 538 868
+            </a></div>
           </div>
         </div>
       </div>
@@ -48,9 +48,9 @@
 
   <!--Header Start-->
   <div class="header-wrap wow fadeInUp">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-3 navbar navbar-expand-lg navbar-light">
+        <div class="col-lg-2 navbar navbar-expand-lg navbar-light">
           <div class="header_logo"><a href="#"><img alt="" src="images/cropped-logo-diamond-web.png"></a></div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
@@ -62,6 +62,28 @@
               <button class="close-toggler" type="button" data-toggle="offcanvas"> <span><i class="fas fa-times-circle"
                     aria-hidden="true"></i></span> </button>
               <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index_slider.html"> Inicio </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="about.html"> Quienes somos </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="property_grid.html"> Inversiones </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="team.html"> Nuestro Equipo </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="blog_single.html"> Blogs </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="testimonials.html"> Testimonio </a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="contact.html"> Contáctenos </a>
+                </li>
+                <!--
                 <li class="nav-item active"><a class="nav-link" href="index-2.html"> Home <span class="caret"><i
                         class="fas fa-caret-down"></i></span></a> <i class="fas fa-caret-down"></i>
                   <ul class="submenu">
@@ -114,6 +136,7 @@
                   </ul>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="contact.html"> Contact Us</a></li>
+              -->
               </ul>
             </div>
           </nav>
@@ -157,7 +180,9 @@
   <div class="property-wrap wow fadeInUp">
     <div class="container">
       <div class="title">
-        <h1>Propiedades Destacadas <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></h1>
+        <h1>Propiedades Destacadas 
+          <!--<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>-->
+        </h1>
       </div>
 
       <!--Row Start-->
@@ -167,45 +192,50 @@
           <div class="property_box wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg01.jpg"></div>
             <h3><a href="#">Departamento en condiminio</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> SURCO /
-              Queens</div>
-            <div class="heart_info">
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> SURCO </div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fas fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 93 000.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Dormitorios  3</h5>
+                  <h5> 3 Dormitorios</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Baños  2</h5>
+                  <h5> 2 Baños </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Garaje 1</h5>
+                  <h5>1 Chochera</h5>
                 </li>
               </ul>              
             </div>
             <div class="propert_info">            
               <ul class="row">
                 <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Comedor  1</h5>
+                  <h5>Comedor</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Cocina  1</h5>
+                  <h5>Cocina</h5>
                 </li>                
               </ul>
             </div>
 
             <div class="rent_info">
               <div class="apart">Departamento</div>
-              <div class="sale">En venta</div>
+              <div class="sale">En venta
+                <a href="https://wa.link/ntnq9n" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
         </li>
@@ -216,32 +246,50 @@
           <div class="property_box wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg02.jpg"></div>
             <h3><a href="#">Departamento en condiminio</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> SAN MIGUEL /
-              Queens</div>
-            <div class="heart_info">
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> SAN MIGUEL 
+              </div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fas fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 108 000.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Dormitorios 3</h5>
+                  <h5> 3 Dormitorios</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Baños  3</h5>
+                  <h5> 2 Baños </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Sala 1</h5>
+                  <h5>1 Chochera</h5>
                 </li>
+              </ul>              
+            </div>
+            <div class="propert_info">            
+              <ul class="row">
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
+                  <h5>Comedor</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
+                  <h5>Cocina</h5>
+                </li>                
               </ul>
             </div>
             <div class="rent_info">
               <div class="apart">Departamento</div>
-              <div class="sale">En venta</div>
+              <div class="sale">En venta
+                <a href="https://wa.link/ntnq9n" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
         </li>
@@ -252,32 +300,50 @@
           <div class="property_box wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg03.jpg"></div>
             <h3><a href="#">Departamento en condiminio</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> COMAS /
-              Queens</div>
-            <div class="heart_info">
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> COMAS 
+              </div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fas fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 180 000.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Dormitorios 2</h5>
+                  <h5> 3 Dormitorios</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Baños  2</h5>
+                  <h5> 2 Baños </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Sala 1</h5>
+                  <h5>1 Chochera</h5>
                 </li>
+              </ul>              
+            </div>
+            <div class="propert_info">            
+              <ul class="row">
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
+                  <h5>Comedor</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
+                  <h5>Cocina</h5>
+                </li>                
               </ul>
             </div>
             <div class="rent_info">
               <div class="apart">Departamento</div>
-              <div class="sale">En venta</div>
+              <div class="sale">En venta
+                <a href="https://wa.link/ntnq9n" target="_blank"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+              </div>
             </div>
           </div>
         </li>
@@ -364,7 +430,9 @@
   <div class="property-wrap property_rent wow fadeInUp">
     <div class="container">
       <div class="title">
-        <h1>Propiedades en Alquiler <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></h1>
+        <h1>Propiedades en Alquiler 
+          <!--<span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>-->
+        </h1>
       </div>
 
       <!--Row Start-->
@@ -373,33 +441,45 @@
         <li class="col-lg-4">
           <div class="property_box wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg01.jpg"></div>
-            <h3><a href="#">Upper portion Apartment for sale</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Staten Island /
-              Queens</div>
-            <div class="heart_info">
+            <h3><a href="#">Departamento en estreno</a></h3>
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Los olivos
+            </div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fas fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 488.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Bedrooms 3</h5>
+                  <h5>2 Dormitorio</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Bathrooms 2</h5>
+                  <h5>2 Baño </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Garage 1</h5>
+                  <h5>1 cochera</h5>
                 </li>
               </ul>
             </div>
+            <div class="propert_info">
+              <ul class="row">
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/comedor.png"></div>
+                  <h5>Comedor </h5>
+                </li>               
+              </ul>
+            </div>
             <div class="rent_info">
-              <div class="apart">Apartment</div>
-              <div class="sale">For Sale</div>
+              <div class="apart">Departamento</div>
+              <div class="sale">En Alquiler</div>
             </div>
           </div>
         </li>
@@ -409,33 +489,45 @@
         <li class="col-lg-4">
           <div class="property_box wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg02.jpg"></div>
-            <h3><a href="#">Departamento en venta</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Staten Island /
-              Queens</div>
-            <div class="heart_info">
+            <h3><a href="#">Mini Departmento en estreno</a></h3>
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Comas
+              </div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 488.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Bedrooms 3</h5>
+                  <h5>2 Dormitorio</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Bathrooms 2</h5>
+                  <h5>2 Baño </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Garage 1</h5>
+                  <h5>1 cochera</h5>
                 </li>
               </ul>
             </div>
+            <div class="propert_info">
+              <ul class="row">
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/comedor.png"></div>
+                  <h5>Comedor </h5>
+                </li>               
+              </ul>
+            </div>
             <div class="rent_info">
-              <div class="apart">Apartment</div>
-              <div class="sale">For Sale</div>
+              <div class="apart">Departamento</div>
+              <div class="sale">En Alquiler</div>
             </div>
           </div>
         </li>
@@ -445,33 +537,44 @@
         <li class="col-lg-4">
           <div class="property_box  wow fadeInUp">
             <div class="propertyImg"><img alt="" src="images/propertyImg03.jpg"></div>
-            <h3><a href="#">Upper portion Apartment for sale</a></h3>
-            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Staten Island /
-              Queens</div>
-            <div class="heart_info">
+            <h3><a href="#">Mini Departmento en estreno</a></h3>
+            <div class="property_location"><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Carabayllo</div>
+            <!--<div class="heart_info">
               <div class="heart_icon"><a href="#"><i class="fas fa-heart" aria-hidden="true"></i></a></div>
               <div class="heart_icon exchange_icon"><a href="#"><i class="fas fa-exchange-alt"></i></a></div>
               <div class="property_price">$ 488.00</div>
-            </div>
+            </div>-->
             <div class="propert_info">
               <ul class="row">
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bedroom_icon.png"></div>
-                  <h5>Bedrooms 3</h5>
+                  <h5>2 Dormitorio</h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/bathroom_icon.png"></div>
-                  <h5>Bathrooms 2</h5>
+                  <h5>2 Baño </h5>
                 </li>
                 <li class="col-4">
                   <div class="proprty_icon"><img alt="" src="images/garage_icon.png"></div>
-                  <h5>Garage 1</h5>
+                  <h5>1 cochera</h5>
                 </li>
               </ul>
             </div>
+            <div class="propert_info">
+              <ul class="row">
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/sala.png"></div>
+                  <h5>Sala</h5>
+                </li>
+                <li class="col-4">
+                  <div class="proprty_icon"><img alt="" src="images/comedor.png"></div>
+                  <h5>Comedor </h5>
+                </li>               
+              </ul>
+            </div>
             <div class="rent_info">
-              <div class="apart">Apartment</div>
-              <div class="sale">For Sale</div>
+              <div class="apart">Departamento</div>
+              <div class="sale">En Alquiler</div>
             </div>
           </div>
         </li>
@@ -579,25 +682,25 @@
             <div class="footer-widget quick-links">
               <h3 class="title">Enlaces</h3>
             <ul>
-              <li><a href="#."> Inicio</a> </li>
-              <li><a href="#."> Propiedades</a> </li>
-              <li><a href="#."> Equipo</a> </li>
-              <li><a href="#."> Blogs</a> </li>
-              <li><a href="#."> Contactenos</a> </li>
+              <li><a href="index_slider.html"> Inicio</a> </li>
+              <li><a href="property_grid.html"> Inversiones</a> </li>
+              <li><a href="team.html"> Nuestro Equipo</a> </li>
+              <li><a href="blog_single.html"> Blogs</a> </li>
+              <li><a href="contact.html"> Contactenos</a> </li>
             </ul>
             </div>
           </div>
           <div class="col-lg-4 col-md-5">
             <div class="footer-widget contact">
-              <h3 class="title">Recent Properties</h3>
+              <h3 class="title">Propiedades recientes</h3>
               <ul class="property_sec">
                 <li>
                   <div class="rec_proprty">
                     <div class="propertyImg"><img alt="" src="images/property_small01.jpg"></div>
                     <div class="property_info">
-                      <h4><a href="#">1324 Tennessee Road</a></h4>
-                      <p>Minneapolis, MN 55402</p>
-                      <div class="priceWrp">$98.00</div>
+                      <h4><a href="property_grid.html">Mini departament</a></h4>
+                      <p>Carabayllo / Residencial las Cascadas</p>
+                      <div class="priceWrp">En Alquiler</div>
                     </div>
                   </div>
                 </li>
@@ -605,9 +708,9 @@
                   <div class="rec_proprty">
                     <div class="propertyImg"><img alt="" src="images/property_small02.jpg"></div>
                     <div class="property_info">
-                      <h4><a href="#">1324 Tennessee Road</a></h4>
-                      <p>Minneapolis, MN 55402</p>
-                      <div class="priceWrp">$98.00</div>
+                      <h4><a href="property_grid.html">Departamento Familiar</a></h4>
+                      <p>Comas / Residencial las Magnolias</p>
+                      <div class="priceWrp">En Alquiler</div>
                     </div>
                   </div>
                 </li>
