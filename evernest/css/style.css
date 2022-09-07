@@ -1104,6 +1104,8 @@ section.our_team_wrap .team_member{
 .footer-adress li span a:hover{color: #77dda7;}
 .footer_phone a{font-size: 24px !important; font-weight: bold;}
 .footer_address i, .footer_phone i{font-size: 24px !important;}
+.footer_address span{margin-left: 8px;}
+
 
 .footer_icon{text-align: left;}
 .footerLinks li{position:relative; padding-left:16px;}
@@ -1909,6 +1911,7 @@ section.our_team_wrap .team_member{margin-bottom: 70px; margin-left: auto; margi
      .four-zero-page{padding-bottom: 0;}
 }
 @media screen and (max-width: 480px){
+    .footer_address span{margin-left: 3px;}
     .four-zero-page p{letter-spacing: 0;}
     .four-zero-page h3{font-size: 18px; letter-spacing: 2px;}
     .four-zero-page h2{font-size: 70px;}
