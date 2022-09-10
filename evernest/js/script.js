@@ -76,7 +76,45 @@ $('[data-toggle="offcanvas"]').on('click', function () {
   });
 
 
-  $('.carousel').flexslider({
+  
+	
+
+
+  jQuery('.carousel').each(function(index){
+    console.log(index);
+    if(jQuery(".carousel").eq(index).length) {
+      jQuery('.carousel').eq(index).flexslider({
+        animation: "slide",
+        controlNav: false,
+        directionNav:true,
+        animationLoop: false,
+        slideshow: true,
+        itemWidth: 91,
+        pausePlay: false,
+        asNavFor: '.slider:eq('+index+')',
+        itemMargin: 7,
+        minItems: 4,
+        maxItems: 4,
+        move: 4
+        });
+      }
+  
+      if(jQuery('.slider').eq(index).length){
+        jQuery('.slider').eq(index).flexslider({
+        animation: "slide",
+        controlNav: false ,
+        
+        directionNav:true,
+        animationLoop: false,
+        slideshow: true,
+        pausePlay: false,
+        video: true,
+        sync: ".carousel:eq("+index+")", 		
+        });	 
+      }
+
+  });
+  /*$('.carousel').flexslider({
     animation: "slide",
     controlNav: false,
     animationLoop: false,
@@ -92,6 +130,6 @@ $('[data-toggle="offcanvas"]').on('click', function () {
     animationLoop: false,
     slideshow: false,
     sync: ".carousel"
-  });
+  });*/
 
 })(jQuery);;
