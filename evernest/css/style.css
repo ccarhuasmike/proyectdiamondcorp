@@ -111,7 +111,7 @@ p{font-size:14px; line-height:24px; color:#333;}
 }
 
 .submenu>li:hover>a {
-    background: #ffb900;
+    background: #CC9A21;
     color: #fff !important; 
 }
 
@@ -807,7 +807,8 @@ section.our_team_wrap .team_member{
 }
 .team_icons ul li:nth-child(1) a{background: #3c5c8d; color: #fff;}
 .team_icons ul li:nth-child(2) a{background: #55acef; color: #fff;}
-.team_icons ul li:nth-child(3) a{background: #c23287; color: #fff;}
+.team_icons ul li:nth-child(3) a{background: #25D366; color: #fff;}
+.team_icons ul li:nth-child(4) a{background: #c23287; color: #fff;}
 
 .team_member .team_name h3{
     background: #CC9A21;
@@ -1126,8 +1127,7 @@ section.our_team_wrap .team_member{
 .social-icons ul li:nth-child(2) a{background: #CC9A21; border-color: #CC9A21;}
 .social-icons ul li:nth-child(3) a{background: #CC9A21; border-color: #CC9A21;}
 .social-icons ul li:nth-child(4) a{background: #CC9A21; border-color: #CC9A21;}
-
-
+.social-icons ul li:nth-child(5) a{background: #CC9A21; border-color: #CC9A21;}
 
 input:focus{outline: none !important;}
 .innerHeading{background: url(../images/innerHeading.jpg); padding: 40px 0; background-size: cover; text-align: center;}
