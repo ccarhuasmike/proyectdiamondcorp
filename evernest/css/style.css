@@ -638,6 +638,15 @@ a.slidebtn i{margin-left:10px;}
     background: transparent; border: 1px solid #fff; color: #fff;
 }
 
+
+.buy-wrap-oportunidad-inversion {
+    background: url(../images/categoriainversion.png) no-repeat top;
+    text-align: center;
+    background-size: auto;
+    padding: 60px 0;
+    width: 100%;
+    height: 380px;
+}
 /********************************************
        == popular_wrap Start ==
 ********************************************/
@@ -1640,6 +1649,21 @@ button:focus{outline: none;}
 .property_list{list-style: none;}
 .property_list li{font-size: 14px; font-weight: normal; line-height: 24px; margin-bottom: 15px;}
 .property_list li span{font-weight: bold; color: #666; width: 50%; float: left;}
+
+.property_list-finalizado li {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 6px;
+}
+
+.property_list-finalizado li span {
+    font-weight: bold;
+    color: #666;
+    width: 40%;
+    float: left;
+}
+
 .prop_del{margin-bottom: 20px;}
 .property_widget{margin-top: 20px;}
 .property_listWp .property_box h3{min-height: inherit;}

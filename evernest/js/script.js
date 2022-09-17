@@ -102,8 +102,7 @@ $('[data-toggle="offcanvas"]').on('click', function () {
       if(jQuery('.slider').eq(index).length){
         jQuery('.slider').eq(index).flexslider({
         animation: "slide",
-        controlNav: false ,
-        
+        controlNav: false ,        
         directionNav:true,
         animationLoop: false,
         slideshow: true,
