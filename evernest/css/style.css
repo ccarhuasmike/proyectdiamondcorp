@@ -592,6 +592,7 @@ a.slidebtn i{margin-left:10px;}
 .apart{background: #CC9A21; z-index: 1000; position: relative; padding: 10px 18px; width: 55%; color: #272426; font-size: 16px; font-family: 'Poppins', sans-serif;}
 .apart:after{content: ""; background:#CC9A21; z-index: -1; width: 40px; height: 100%; transform: skew(-30deg); position: absolute; top: 0; right: -15px;}
 .sale{background: #2b2727; padding: 10px; text-align: center; color: #fff; width: 45%; font-size: 16px; font-weight: 300; font-family: 'Poppins', sans-serif;}
+.participar{background: #272426; padding: 10px; text-align: center; color: #fff; width: 100%; font-size: 16px; font-weight: 300; font-family: 'Poppins', sans-serif;}
 .rent_info a{
     position: absolute;
     float: right;
@@ -637,7 +638,12 @@ a.slidebtn i{margin-left:10px;}
 .start_btn a:hover{
     background: transparent; border: 1px solid #fff; color: #fff;
 }
-
+.property_list-finalizado li p{
+	width: 60%;
+    margin-left: 37%;
+    text-indent: -1em;
+    margin-bottom: 0rem !important;
+}
 
 .buy-wrap-oportunidad-inversion {
     background: url(../images/categoriainversion.png) no-repeat top;
