@@ -23,8 +23,7 @@
   <link rel="apple-touch-icon" href="images/cropped-cropped-WhatsApp-Image-2022-01-27-at-9.56.56-PM-1-180x180.png">
   <meta name="msapplication-TileImage"
     content="images/cropped-cropped-WhatsApp-Image-2022-01-27-at-9.56.56-PM-1-270x270.png">
-  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
-    type='text/css'>
+  <link href="css/font-awesome.min.css" rel="stylesheet"  type='text/css'>
 </head>
 
 <body>
@@ -180,17 +179,20 @@
           <li class="col-lg-6">
             <div class="testService wow fadeInUp">
               <div class="testi-info">
+                <video style="width: 100%;height: auto;"controls  autoplay loop muted  poster="#" id="bgvid" >
+                  <source src="videos/construction-background.mp4" type="video/mp4">
+                </video>
                 <div class="client-image"><img src="images/client.jpg" alt=""></div>
                 <div class="name">Tegan Bolton </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed tellus luctus, hendrerit arcu
                   et, pulvinar ante. Morbi urna metus, pretium id magna in, efficitur vestibulum mauris.</p>
-                <ul class="client_rating">
+                <!--<ul class="client_rating">
                   <li><i class="fa fa-star" aria-hidden="true"></i></li>
                   <li><i class="fa fa-star" aria-hidden="true"></i></li>
                   <li><i class="fa fa-star" aria-hidden="true"></i></li>
                   <li><i class="fa fa-star" aria-hidden="true"></i></li>
                   <li><i class="fa fa-star" aria-hidden="true"></i></li>
-                </ul>
+                </ul>-->
               </div>
             </div>
           </li>
@@ -386,6 +388,37 @@
   <!-- general script file -->
   <script src="js/wow.js"></script>
   <script src="js/script.js"></script>
+  <script>
+    /*
+    const video = document.querySelector("video");
+
+    function startPreview() {
+      video.muted = true;
+      video.currentTime = 1;
+      //video.playbackRate = 0.5;
+      video.play();
+    }
+
+    function stopPreview() {
+      video.currentTime = 0;
+      video.playbackRate = 1;
+      video.pause();
+    }
+
+    let previewTimeout = null;
+
+    video.addEventListener("mouseenter", () => {
+      startPreview();
+      //previewTimeout = setTimeout(stopPreview, 4000);
+    });
+
+    video.addEventListener("mouseleave", () => {
+      clearTimeout(previewTimeout);
+      previewTimeout = null;
+      stopPreview();
+    });*/
+
+  </script>
 </body>
 
 </html>
