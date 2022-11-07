@@ -51,7 +51,8 @@ p{font-size:14px; line-height:24px; color:#333;}
 .style_none{list-style:none;}
 .readmore{margin-bottom: 30px;}
 .readmore a{text-decoration: none; font-size: 14px; color: #272426; display: inline-block; font-weight: bold; text-transform: uppercase; background: #CC9A21; padding: 14px 36px;}
-.readmore a:hover{background: #000;}
+.readmore a:hover{background: #000; color: white;}
+
 
 
 
